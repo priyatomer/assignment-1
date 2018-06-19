@@ -1,0 +1,23 @@
+Git Commands:-
+
+1.git config --global user.name "Your name" : It is used for configure the  username to be used with your commits.
+
+2.git config --global user.email "Your email" : It is used for configure the email address to be usesd with your commits.
+
+3.git init : It is used to initialize the tracker inside the folder to be tracked.
+
+4.git status:It is used to list the files that have changed & those which are still need to add or commit.
+
+5.git add <filename>:It is used to add the given file to staging(index).
+
+6.git add . :It is used to add all the files to staging.
+
+7.git commit -m "Commit Message" :It is used to commit changes to head (but not yet to the remote repository).
+
+8.git push origin master :It is used to send changes to the master branch of your remote repository.
+
+9.git remote add origin :It is used to if we haven't connected your local repository to a remote server,add the server to be able to push to it.
+
+10.git log :It is used to see the commit id of the various committed version.
+
+11.git checkout commit-id : It is  used to switch between different versions
